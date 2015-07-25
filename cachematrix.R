@@ -1,4 +1,4 @@
-## These fucntions calculate the inverse of a matrix and cache the value for later use if needed
+## These functions calculate the inverse of a matrix and cache the value for later use if needed
 
 ## This function creates a matric, calculates, then caches the inverse value of the matrix
 
@@ -17,7 +17,7 @@ m <- NULL
 }
 
 
-## This function calculates the inverse of the matric created in the function above. If the inverse was already calculated it uses the cached inverse value
+## This function calculates the inverse of the matric created in the function above using the cached value if already calculated.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
